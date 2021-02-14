@@ -1,0 +1,53 @@
+# package.use# required by gnome-base/gnome-keyring-3.36.0::gentoo
+# required by app-crypt/libsecret-0.20.3::gentoo
+# required by gnome-extra/nm-applet-1.18.0::gentoo
+# required by nm-applet (argument)
+>=app-crypt/pinentry-1.1.0-r3 gnome-keyring
+# required by www-client/firefox-78.6.1::gentoo[system-libvpx]
+# required by firefox (argument)
+>=media-libs/libvpx-1.9.0 postproc
+# required by www-client/firefox-78.6.1::gentoo
+# required by firefox (argument)
+>=dev-lang/python-3.9.0-r1 sqlite
+# required by app-admin/calamares-3.2.32.1::gentoo[python_single_target_python3_8]
+# required by app-admin/calamares (argument)
+>=dev-libs/boost-1.74.0-r1 python
+# required by app-admin/calamares-3.2.32.1::gentoo
+# required by app-admin/calamares (argument)
+>=dev-qt/qtwebengine-5.15.2 widgets
+# required by sys-boot/os-prober-1.77::gentoo
+# required by app-admin/calamares-3.2.32.1::gentoo
+# required by app-admin/calamares (argument)
+>=sys-boot/grub-2.04-r2 mount
+# required by dev-qt/qtwebengine-5.15.2::gentoo
+# required by app-admin/calamares-3.2.32.1::gentoo
+# required by app-admin/calamares (argument)
+>=dev-qt/qtwebchannel-5.15.2 qml
+# required by dev-qt/qtwebengine-5.15.2::gentoo
+# required by app-admin/calamares-3.2.32.1::gentoo
+# required by app-admin/calamares (argument)
+>=sys-libs/zlib-1.2.11-r2 minizip
+# required by x11-drivers/xf86-video-vmware-13.3.0::gentoo
+# required by x11-drivers/xf86-video-vmware (argument)
+>=x11-libs/libdrm-2.4.103 video_cards_vmware libkms
+# required by x11-drivers/xf86-video-vmware-13.3.0::gentoo
+# required by x11-drivers/xf86-video-vmware (argument)
+>=media-libs/mesa-20.2.4 xa
+# required by app-misc/neofetch-7.1.0::gentoo[X]
+# required by app-misc/neofetch (argument)
+>=www-client/w3m-0.5.3_p20180125 imlib
+# required by xfce-base/xfce4-panel-4.16.0::gentoo[dbusmenu]
+# required by xfce-base/thunar-4.16.2::gentoo[trash-panel-plugin]
+# required by xfce-base/xfdesktop-4.16.0::gentoo[thunar]
+# required by xfce-base/xfce4-meta-4.16-r2::gentoo
+# required by xfce4-meta (argument)
+>=dev-libs/libdbusmenu-16.04.0-r1 gtk3
+# required by xfce-extra/thunar-volman-4.16.0::gentoo
+# required by xfce-base/xfce4-meta-4.16-r2::gentoo
+# required by xfce4-meta (argument)
+>=xfce-base/thunar-4.16.2 udisks
+# required by xfce-base/thunar-4.16.2::gentoo[udisks]
+# required by xfce-base/xfdesktop-4.16.0::gentoo[thunar]
+# required by xfce-base/xfce4-meta-4.16-r2::gentoo
+# required by xfce4-meta (argument)
+>=gnome-base/gvfs-1.44.1 udisks

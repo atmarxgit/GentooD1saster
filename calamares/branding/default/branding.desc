@@ -1,0 +1,26 @@
+---
+componentName:  default
+
+strings:
+    productName:         D1saster D-801 Alpha
+    shortProductName:    D1saster
+    version:             ""
+    shortVersion:        ""
+    versionedName:       D1saster D-801 Alpha
+    shortVersionedName:  D1saster
+    bootloaderEntryName: D1saster
+    productUrl:          http://d1saster.wp.xdomain.jp/
+    supportUrl:          http://d1saster.wp.xdomain.jp/
+    knownIssuesUrl:      http://d1saster.wp.xdomain.jp/
+    releaseNotesUrl:     http://d1saster.wp.xdomain.jp/
+
+images:
+    productLogo:         "exton.png"
+    productIcon:         "exton.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#2A2C31"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#292F34"
